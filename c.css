@@ -1,0 +1,62 @@
+html 
+{
+    background-color: #333333;
+}
+
+.styles
+{
+    font: 1.2vw monospace; 
+    color: rgb(255, 196, 0);  
+    text-align: center
+}
+
+a:link {
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(255, 136, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.table-wrapper{
+    display: flex;
+align-items: center; 
+justify-content: center;
+padding: 20px;
+text-align: center;
+margin: 0 auto;
+  }
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1.5vw;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #363636;
+  }
+  tr:hover {background-color: #555555;}
+  tr:nth-child(odd) {
+    background-color: #303030;
+  }
+  tr:hover {background-color: #555555;}
