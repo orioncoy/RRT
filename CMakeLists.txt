@@ -3,11 +3,9 @@ project(RRT)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(RRT
+add_executable(RRT src/main.cpp
         src/render/vec3.h
-        src/render/renderer.cpp
-        src/main.cpp
-        src/ui/interface.h
-        src/ui/interface.cpp
-        src/ui/interface.h
-        src/render/vec3.h)
+        src/render/color.h
+        src/render/ray.h
+        src/render/hittable.h
+        src/render/sphere.h)
