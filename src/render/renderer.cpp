@@ -23,6 +23,4 @@ void render() {
     }
 
     system("clear");
-
-    cout << "Complete!";
 }

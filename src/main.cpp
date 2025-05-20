@@ -2,9 +2,10 @@
 
 #include "interface.cpp"
 
-bool app_loop{};
-
 int main() {
-    
+    while (true) {
+        interface();
+    }
+
     return 0;
 }
